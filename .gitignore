@@ -1,0 +1,15 @@
+# 115　Gitではアップロードしないファイルの一覧
+# 下記は量が多すぎる為、アップロードしない感じ
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+# 下記はDB情報等の個人情報が含まれる為、アップロードしない感じ
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
